@@ -3,7 +3,7 @@ output "application_name" {
 }
 
 output "environment_name" {
-  value = local.environment_name
+  value = var.environment_name
 }
 
 output "environment_prefix" {
