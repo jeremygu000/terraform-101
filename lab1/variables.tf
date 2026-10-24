@@ -5,3 +5,8 @@ variable "suffix_length" {
 variable "environment_name" {
   type = string
 }
+
+variable "database_password" {
+  type      = string
+  sensitive = true
+}

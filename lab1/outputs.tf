@@ -9,3 +9,8 @@ output "environment_name" {
 output "environment_prefix" {
   value = local.environment_prefix
 }
+
+output "database_password" {
+  value     = var.database_password
+  sensitive = true
+}
